@@ -1,0 +1,306 @@
+/* Основной контейнер */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+/* Стили для шапки */
+.header-wrapper, .main-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 950px;
+  min-height: 100px;
+}
+
+/* Новостная часть шапки */
+.header-news {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+}
+
+/* Ссылки в шапке */
+.header-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* Стили для отдельной ссылки */
+.links {
+  min-width: 120px;
+  min-height: 17px;
+}
+
+/* Блок новостей */
+.box-news {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100px;
+}
+
+/* Отдельная новость */
+.article {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 20px;
+}
+
+/* Изображение в новости */
+.image {
+  width: 25px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+/* Заголовок новости */
+.news-title {
+  display: block;
+  margin-top: 0;
+  font-size: 13px;
+  color: #4c4b4b;
+}
+
+/* Курс валюты */
+.header-currency {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Блок для отображения курса валюты */
+.currency-box {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+/* Заголовок курса валюты */
+.currency-title {
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Значение курса валюты */
+.currency-curs {
+  font-size: 14px;
+}
+
+/* Подвал шапки */
+.header-footer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100px;
+}
+
+/* Изображение в подвале */
+.img-item {
+  width: 80px;
+  height: 80px;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+
+/* Общие стили для текста */
+.text {
+  font-size: 14px;
+  color: #3e3d3d;
+}
+
+/* BODY */
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+/* Заголовок основной части */
+.main-title {
+  display: flex;
+  flex-direction: row;
+  width: 40px;
+  margin-top: 10px;
+}
+
+/* Поле для ввода текста */
+.writing-field {
+  display: flex;
+  justify-content: flex-end;
+  height: 30px;
+  border: 4px solid rgb(255, 220, 19);
+  margin-top: 5px;
+}
+
+/* Иконка поиска */
+.img-find {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  margin-top: 3px;
+}
+
+/* Кнопка поиска */
+.btn-find {
+  background-color: rgb(255, 220, 19);
+  color: rgb(26, 9, 9);
+  border: none;
+}
+
+/* Стили для элемента-разделителя */
+.item-style {
+  color: #a29b9b;
+}
+
+/* Изображение в основной части */
+.main-img {
+  width: 950px;
+  height: 50px;
+  background-color: cadetblue;
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Подвал */
+.footer-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 950px;
+  min-height: 50px;
+  margin-top: 0;
+}
+
+/* Контейнер для каждого элемента в подвале */
+.wrapper-main-item {
+  display: flex;
+  flex-direction: column;
+  min-width: 240px;
+  min-height: 80px;
+}
+
+/* Контейнер для погодных данных */
+.weather-box {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Изображение погоды */
+.weather-img {
+  width: 55px;
+  height: 55px;
+}
+
+/* Температура */
+.weather-temp {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+/* Утро, день, вечер, ночь */
+.weather-am-pm {
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-morning, .weather-by-day, .weather-by-evening, .weather-night {
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+/* Контейнер для элементов в подвале */
+.footer-items-box {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  min-height: 160px;
+  margin-top: 10px;
+}
+
+/* Каждый элемент в подвале */
+.footer-item {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+}
+
+/* Заголовок в подвале */
+.main-footer-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Контент в подвале */
+.content {
+  margin-top: 10px;
+}
+
+/* Заголовок для расписания */
+.timetable {
+  color: #4c4b4b;
+  font-size: 14px;
+}
+
+/* Контейнер для элементов расписания */
+.item-timetables {
+  min-height: 60px;
+  margin-top: 30px;
+}
+
+/* Контейнер для новостей расписания */
+.timetable-news {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Изображение для новостей расписания */
+.timetable-img {
+  width: 50px;
+  height: 22px;
+  margin-left: 20px;
+}
+
+/* Бокс для каждого элемента расписания */
+.timetable-box, .ether-item {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+/* Время, изображение эфира, заголовок и контент */
+.box-time, .ether-img, .ether-title {
+  margin-right: 8px;
+}
+
+/* Заголовок каждого элемента расписания */
+.box-title {
+  margin-right: 12px;
+}
+
+/* Контент каждого элемента расписания */
+.box-content, .ether-content {
+  color: #a7a3a3;
+}
+
+/* Контейнер для эфира */
+.ether-box {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Каждый элемент эфира */
+.ether-item {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+}
